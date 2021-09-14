@@ -15,6 +15,9 @@ function Header() {
           // attr="placeholder"
           loop
         ></Typed>
+        <a href="#" className="btn-main-offer">
+          Contact Me
+        </a>
       </div>
     </div>
   );
