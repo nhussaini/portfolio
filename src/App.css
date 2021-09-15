@@ -12,6 +12,9 @@ body {
   font-family: "Roboto Condensed", sans-serif;
 }
 /**********Nabar***********/
+nav {
+  z-index: 2;
+}
 .logo {
   width: 10rem;
   height: 5rem;
@@ -70,7 +73,9 @@ nav ul li {
   justify-content: center;
   align-items: center;
   text-align: center;
+  z-index: 1;
 }
+
 .main-info h1 {
   color: var(--primary-orange);
   text-transform: uppercase;
@@ -88,4 +93,17 @@ nav ul li {
   color: var(--primary-white);
   margin: 2rem;
   text-decoration: none;
+}
+.btn-main-offer:hover {
+  background-color: var(--primary-hover-red);
+  color: var(--primary-white);
+  transition: 0.2s ease-in-out;
+}
+
+/*Particles js*/
+.tsparticles-canvas-el {
+  position: absolute;
+  height: 100vh;
+  width: 100vw;
+  z-index: 1;
 }
