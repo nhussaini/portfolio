@@ -151,3 +151,31 @@ nav ul li {
     text-align: center;
   }
 }
+/***********skills***************/
+
+.skills {
+  background-color: black;
+  color: #fff;
+  padding-left: 5rem;
+  padding-right: 5rem;
+}
+.skills-container {
+  display: flex;
+  justify-content: space-between;
+}
+.skill-development {
+  width: 60%;
+}
+.development {
+  width: 4rem;
+  height: 4rem;
+  font-size: 0.8rem;
+  font-weight: 200;
+  border: 1px solid white;
+  border-radius: 50%;
+  text-align: center;
+}
+
+.development p {
+  margin: 40% auto;
+}
