@@ -5,6 +5,7 @@ import Typed from "react-typed";
 function Header() {
   return (
     <div className="header-wrapper">
+      <div className="layover"></div>
       <div className="main-info">
         <h1>Web development</h1>
         <Typed

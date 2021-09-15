@@ -42,6 +42,11 @@ nav ul li {
   padding: 0 !important;
   height: 6rem !important;
 }
+@media (max-width: 768px) {
+  .navbar-brand {
+    max-width: 7rem !important;
+  }
+}
 
 .navbar-nav > li > a.active,
 .navbar-nav > li > a.active:focus {
@@ -59,6 +64,14 @@ nav ul li {
   background-size: cover;
   background-position: center;
   height: 90vh;
+}
+.layover {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+  background-color: black;
+  opacity: 0.5;
 }
 
 .main-info {
@@ -85,6 +98,14 @@ nav ul li {
   color: var(--primary-white);
 }
 
+@media (max-width: 768px) {
+  .main-info h1 {
+    font-size: 1.7rem !important;
+  }
+  .typed-text {
+    font-size: 1.3rem !important;
+  }
+}
 .btn-main-offer {
   border: 1px solid var(--primary-red);
   text-transform: uppercase;
@@ -106,4 +127,6 @@ nav ul li {
   height: 100vh;
   width: 100vw;
   z-index: 1;
+}
+@media (max-width: 768px) {
 }
