@@ -163,8 +163,10 @@ nav ul li {
   display: flex;
   justify-content: space-between;
 }
-.skill-development {
-  width: 60%;
+.developments {
+  display: flex;
+  width: 50%;
+  flex-wrap: wrap;
 }
 .development {
   width: 4rem;
