@@ -1,12 +1,15 @@
 import React from "react";
 
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faCheck } from "@fortawesome/free-solid-svg-icons";
+
 function Skills() {
   return (
     <div className="skills">
       <h1 className="skills-header">Skills</h1>
       <div className="skills-container">
         <div className="skill-development-conainter">
-          <h2>Development</h2>
+          <h4>Development</h4>
 
           <div className="developments">
             <div className="development">
@@ -48,19 +51,47 @@ function Skills() {
           </div>
         </div>
         <div className="skill-tests">
-          <h2>Test</h2>
-          <p>Mocha and Chai</p>
-          <p>Jest</p>
-          <p>Cypress</p>
-          <p>Selenium</p>
+          <h4>Test</h4>
+
+          <p>
+            <FontAwesomeIcon icon={faCheck} className="mx-1" />
+            Mocha and Chai
+          </p>
+          <p>
+            <FontAwesomeIcon icon={faCheck} className="mx-1" />
+            Jest
+          </p>
+          <p>
+            <FontAwesomeIcon icon={faCheck} className="mx-1" />
+            Cypress
+          </p>
+          <p>
+            <FontAwesomeIcon icon={faCheck} className="mx-1" />
+            Selenium
+          </p>
         </div>
         <div className="skill-tools">
-          <h2>Tools</h2>
-          <p>Git + Github</p>
-          <p>Bitbucket</p>
-          <p>Command Line</p>
-          <p>Chrome DevTools</p>
-          <p>Postman and Rested</p>
+          <h4>Tools</h4>
+          <p>
+            <FontAwesomeIcon icon={faCheck} className="mx-1" />
+            Git + Github
+          </p>
+          <p>
+            <FontAwesomeIcon icon={faCheck} className="mx-1" />
+            Bitbucket
+          </p>
+          <p>
+            <FontAwesomeIcon icon={faCheck} className="mx-1" />
+            Command Line
+          </p>
+          <p>
+            <FontAwesomeIcon icon={faCheck} className="mx-1" />
+            Chrome DevTools
+          </p>
+          <p>
+            <FontAwesomeIcon icon={faCheck} className="mx-1" />
+            Postman and Rested
+          </p>
         </div>
       </div>
     </div>
