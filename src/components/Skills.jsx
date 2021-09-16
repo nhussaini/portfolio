@@ -1,15 +1,23 @@
 import React from "react";
 
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faCheck } from "@fortawesome/free-solid-svg-icons";
-
+import {
+  faCheck,
+  faMicroscope,
+  faTools,
+} from "@fortawesome/free-solid-svg-icons";
+import { faCode } from "@fortawesome/free-solid-svg-icons";
+// import { faScrewdriverWrench } from "@fortawesome/free-solid-svg-icons";
 function Skills() {
   return (
     <div className="skills">
       <h1 className="skills-header">Skills</h1>
       <div className="skills-container">
         <div className="skill-development-conainter">
-          <h4>Development</h4>
+          <h4>
+            <FontAwesomeIcon icon={faCode} className="mx-1" />
+            Development
+          </h4>
 
           <div className="developments">
             <div className="development">
@@ -51,7 +59,10 @@ function Skills() {
           </div>
         </div>
         <div className="skill-tests">
-          <h4>Test</h4>
+          <h4>
+            <FontAwesomeIcon icon={faMicroscope} className="mx-1" />
+            Test
+          </h4>
 
           <p>
             <FontAwesomeIcon icon={faCheck} className="mx-1" />
@@ -71,7 +82,10 @@ function Skills() {
           </p>
         </div>
         <div className="skill-tools">
-          <h4>Tools</h4>
+          <h4>
+            <FontAwesomeIcon icon={faTools} className="mx-1" />
+            Tools
+          </h4>
           <p>
             <FontAwesomeIcon icon={faCheck} className="mx-1" />
             Git + Github

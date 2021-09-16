@@ -163,6 +163,25 @@ nav ul li {
   display: flex;
   /* flex-wrap: wrap; */
 }
+.skills-header {
+  text-align: center;
+  margin-bottom: 2rem;
+  padding-top: 2rem;
+  text-decoration: underline;
+  text-decoration-color: var(--primary-orange);
+  -webkit-text-underline-position: under;
+  -ms-text-underline-position: below;
+  text-underline-position: under;
+}
+.skills-container h4 {
+  /* margin-bottom: 0.5rem; */
+  text-decoration: underline;
+  text-decoration-color: var(--primary-orange);
+  -webkit-text-underline-position: under;
+  -ms-text-underline-position: below;
+  text-underline-position: under;
+  margin-bottom: 1rem;
+}
 .developments {
   display: flex;
   width: 40%;
@@ -171,6 +190,7 @@ nav ul li {
 .development {
   width: 4rem;
   height: 4rem;
+  margin: 0.1rem;
   font-size: 0.8rem;
   font-weight: 200;
   border: 1px solid var(--primary-orange);
@@ -180,10 +200,12 @@ nav ul li {
 .skill-tests {
   width: 30%;
   font-size: 0.8rem;
+  margin-bottom: 2rem;
 }
 .skill-tools {
   width: 30%;
   font-size: 0.8rem;
+  margin-bottom: 2rem;
 }
 .development p {
   margin: 40% auto;
@@ -209,6 +231,15 @@ nav ul li {
     justify-content: center;
   } */
   .skill-development-conainter {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 2rem;
+  }
+  .skill-tools {
+    font-size: 0.8rem;
+    margin-bottom: 2rem;
+    width: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
