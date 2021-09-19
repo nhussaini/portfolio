@@ -3,6 +3,9 @@
 :root {
   --primary-white: #fff;
   --primary-orange: #f9ab00;
+  --primary-light-grey: #f4f4f4;
+  --primary-grey: #ccd1d9;
+  --primary-dark-grey: #666666;
   --primary-dark: rgba(255, 255, 255, 0);
   --primary-red: #ef4035;
   --primary-hover-red: #f33501;
