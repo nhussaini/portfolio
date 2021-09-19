@@ -8,25 +8,23 @@ const Experience =()=>{
                 <div className="timeline-block timeline-block-right">
                     <div className="marker"></div>
                     <div className="timeline-content">
-                        <h3>2014-2015</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur, 
-                            adipisicing elit. Fugiat, eligendi delectus 
-                            quaerat modi porro eum quam rerum vel quis corporis ullam
-                            aliquid fugit sint inventore. Nemo accusantium eligendi pariatur assumenda!
-                        </p>
+                        <h3>2021-Now</h3>
+                        <h4>Mortgagebrokertore(Mbs)</h4> 
+                        <p>Web Developer</p>
+                        <p>Optimizing <a href="https://mortgagebrokerstore.com/">mortgagebrokerstore</a> for better accessibilty,
+                         performance and SEO, and contributing new contents</p>
                     </div>
                 </div>
 
                 <div className="timeline-block timeline-block-left">
                     <div className="marker"></div>
                     <div className="timeline-content">
-                        <h3>2014-2015</h3>
+                        <h3>2016-2017</h3>
+                        <h4>InnoWeg</h4>
+                        <p>Full-Stack Developer</p>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur, 
-                            adipisicing elit. Fugiat, eligendi delectus 
-                            quaerat modi porro eum quam rerum vel quis corporis ullam
-                            aliquid fugit sint inventore. Nemo accusantium eligendi pariatur assumenda!
+                        Developed web-based applications for enterprise corporations to meet business needs.
+                        I designed,wrote and modified the frontend and backend implementation.
                         </p>
                     </div>
                 </div>
@@ -34,12 +32,11 @@ const Experience =()=>{
                 <div className="timeline-block timeline-block-right">
                     <div className="marker"></div>
                     <div className="timeline-content">
-                        <h3>2014-2015</h3>
+                        <h3>2016-2017</h3>
+                        <h4>Avecinna University</h4>
+                        <p>Instructor in Computer Science Department</p>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur, 
-                            adipisicing elit. Fugiat, eligendi delectus 
-                            quaerat modi porro eum quam rerum vel quis corporis ullam
-                            aliquid fugit sint inventore. Nemo accusantium eligendi pariatur assumenda!
+                          I taught HTML, CSS, Java and PHP to undergraduates and supported students to learn concepts through 1-1 meetings and creative teaching techniques which enhanced the understanding and motivation to study STEM subjects 
                         </p>
                     </div>
                 </div>
@@ -48,25 +45,12 @@ const Experience =()=>{
                 <div className="timeline-block timeline-block-left">
                     <div className="marker"></div>
                     <div className="timeline-content">
-                        <h3>2014-2015</h3>
+                        <h3>2015-2016</h3>
+                        <h4>Star Educational Society</h4>
+                        <p>Department Head / Computer Science Instructor</p>
                         <p>
-                            Lorem ipsum dolor sit amet consectetur, 
-                            adipisicing elit. Fugiat, eligendi delectus 
-                            quaerat modi porro eum quam rerum vel quis corporis ullam
-                            aliquid fugit sint inventore. Nemo accusantium eligendi pariatur assumenda!
-                        </p>
-                    </div>
-                </div>
-
-                <div className="timeline-block timeline-block-right">
-                    <div className="marker"></div>
-                    <div className="timeline-content">
-                        <h3>2014-2015</h3>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur, 
-                            adipisicing elit. Fugiat, eligendi delectus 
-                            quaerat modi porro eum quam rerum vel quis corporis ullam
-                            aliquid fugit sint inventore. Nemo accusantium eligendi pariatur assumenda!
+                        I taught java and responsive web design applications with HTML5, CSS3 and Bootstrap to youth interested in exploring careers in coding.
+                        I ensured course content met international industry standards to enhance future job possibilities an academic advancement of student graduates 
                         </p>
                     </div>
                 </div>
