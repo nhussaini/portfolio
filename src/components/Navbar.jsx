@@ -1,4 +1,5 @@
 import React from "react";
+import {Link} from 'react-scroll';
 
 import myLogo from "../myLogo.PNG";
 
@@ -27,35 +28,35 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarSupportedContent">
           <ul className="navbar-nav ms-auto">
             <li className="nav-item active">
-              <a className="nav-link" href="#">
+              <Link smooth={true} to="home" className="nav-link" href="#">
                 Home
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <Link smooth={true} to="about" className="nav-link" href="#">
                 About Me
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
-                Services
-              </a>
+              <Link smooth={true} to="skills" className="nav-link" href="#">
+                Skills
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <Link smooth={true} to="" className="nav-link" href="#">
                 How work
-              </a>
+              </Link>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#">
+              <Link smooth={true} to="portfolio" className="nav-link" href="#">
                 Portfolio
-              </a>
+              </Link>
             </li>
-            <li className="nav-item">
-              <a className="nav-link" href="#">
+            {/* <li className="nav-item">
+              <Link smooth={true} to="" className="nav-link" href="#">
                 Contacts
-              </a>
-            </li>
+              </Link>
+            </li> */}
           </ul>
         </div>
       </div>

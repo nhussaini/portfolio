@@ -10,7 +10,7 @@ import { faCode } from "@fortawesome/free-solid-svg-icons";
 // import { faScrewdriverWrench } from "@fortawesome/free-solid-svg-icons";
 function Skills() {
   return (
-    <div className="skills">
+    <div id="skills" className="skills">
       <h1 className="skills-header">Skills</h1>
       <div className="skills-container">
         <div className="skill-development-conainter">
