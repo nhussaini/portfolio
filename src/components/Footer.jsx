@@ -1,5 +1,4 @@
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGitHub } from '@fortawesome/free-solid-svg-icons';
+
 import { GoMarkGithub } from "react-icons/go";
 import { FaInstagram, FaLinkedin} from "react-icons/fa";
 const Footer =()=>{
