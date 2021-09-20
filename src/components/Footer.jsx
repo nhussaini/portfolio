@@ -20,14 +20,23 @@ const Footer =()=>{
                 <div className="col-lg-3 cold-md-2 cold-sm-6">
                     <div className="row">
                         <div className="col">
-                            <div className="footer-nav">Home</div>
-                            <div className="footer-nav">About Me</div>
-                            <div className="footer-nav">Services</div>
+                            <a className="footer-nav">Home</a>
+                            <br />
+                            <a className="footer-nav">About Me</a>
+                            <br />
+
+                            <a className="footer-nav">Services</a>
+                            
+
                         </div>
                         <div className="col">
-                            <div className="footer-nav">Experience</div>
-                            <div className="footer-nav">Portfolio</div>
-                            <div className="footer-nav">Contacts</div>
+                            <a className="footer-nav">Experience</a>
+                            <br />
+
+                            <a className="footer-nav">Portfolio</a>
+                            <br />
+
+                            <a className="footer-nav">Contacts</a>
                         </div>
                     </div>
                 </div>

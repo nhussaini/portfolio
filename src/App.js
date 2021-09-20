@@ -38,7 +38,7 @@ function App() {
       <AboutMe />
       <Skills />
       <Experience />
-      <Footer />>
+      <Footer />
     </>
   );
 }
