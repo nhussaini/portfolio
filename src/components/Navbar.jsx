@@ -8,7 +8,7 @@ import { faBars } from "@fortawesome/free-solid-svg-icons";
 
 const Navbar = () => {
   return (
-    <nav className="navbar navbar-expand-lg navbar-light bg-dark">
+    <nav className="navbar navbar-expand-lg navbar-light bg-dark fixed-top">
       <div className="container">
         <a className="navbar-brand" href="#">
           <img src={myLogo} alt="my brand logo" className="logo" />
@@ -38,17 +38,17 @@ const Navbar = () => {
               </Link>
             </li>
             <li className="nav-item">
-              <Link smooth={true} to="skills" className="nav-link" href="#">
+              <Link smooth={true} to="skills" offset={-110} className="nav-link" href="#">
                 Skills
               </Link>
             </li>
             <li className="nav-item">
-              <Link smooth={true} to="" className="nav-link" href="#">
-                How work
+              <Link smooth={true} to="experience" offset={-110} className="nav-link" href="#">
+                Experience
               </Link>
             </li>
             <li className="nav-item">
-              <Link smooth={true} to="portfolio" className="nav-link" href="#">
+              <Link smooth={true} to="portfolio" offset={-110} className="nav-link" href="#">
                 Portfolio
               </Link>
             </li>
