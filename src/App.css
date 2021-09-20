@@ -214,7 +214,7 @@ nav ul li {
   margin: 40% auto;
 }
 
-@media (max-width: 414px) {
+@media (max-width: 415px) {
   /* .skills {
     padding-left: 0rem;
     padding-right: 0rem;
@@ -245,7 +245,29 @@ nav ul li {
     flex-direction: column;
     align-items: center;
   }
+  .developments .development {
+    width: 3rem;
+    height: 3rem;
+    margin: 0.1rem;
+    font-size: 0.6rem;
+    font-weight: 180;
+    border: 1px solid var(--primary-orange);
+    border-radius: 50%;
+    text-align: center;
+  }
 }
+/* @media (max-width: 376px) {
+  .developments .development {
+    width: 3rem;
+    height: 3rem;
+    margin: 0.1rem;
+    font-size: 0.6rem;
+    font-weight: 180;
+    border: 1px solid var(--primary-orange);
+    border-radius: 50%;
+    text-align: center;
+  }
+} */
 
 /***********Experience*******************/
 .experience {
