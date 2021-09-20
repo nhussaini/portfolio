@@ -1,3 +1,7 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGitHub } from '@fortawesome/free-solid-svg-icons';
+import { GoMarkGithub } from "react-icons/go";
+import { FaInstagram, FaLinkedin} from "react-icons/fa";
 const Footer =()=>{
     return(
         <div className="footer">
@@ -39,6 +43,20 @@ const Footer =()=>{
                             <a className="footer-nav">Contacts</a>
                         </div>
                     </div>
+                </div>
+                <div className="col-lg-5 col-md-5 col-sm-6 align-items-center">
+                    <div className="d-flex justify-content-center">
+                        <a href="https://github.com/nhussaini" className="mx-2"><GoMarkGithub /></a>
+                        <a href="https://www.linkedin.com/in/nasrullah-hussaini/" className="mx-2"><FaLinkedin /></a>
+                        <a href="https://www.instagram.com/nasrullah__hussaini/" className="mx-2"><FaInstagram /></a>
+
+
+                    </div>
+
+                    <p className="pt-3 text-center">
+                        Copyright&copy;
+                        {new Date().getFullYear()}&nbsp;Nasrullah Hussaini | All Rights Reservered
+                    </p>
                 </div>
                 </div>
 

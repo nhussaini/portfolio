@@ -350,3 +350,6 @@ nav ul li {
 .footer p {
   margin-bottom: 0;
 }
+.footer a svg {
+  font-size: 1.5rem;
+}
