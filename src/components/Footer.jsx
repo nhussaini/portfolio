@@ -10,16 +10,16 @@ const Footer =()=>{
         <div className="footer">
             <div className="container">
                 <div className="row">
-                <div className="col-lg-4 col-md-6 col-md-6">
-                    <div className="d-flex">
+                <div className="col-lg-4 col-md-6 col-md-6 mb-3">
+                    <div className="d-flex justify-content-center">
                         <p>Toronto,ON</p>
                     </div>
 
-                    <div className="d-flex">
+                    <div className="d-flex justify-content-center">
                         <a href="tel:+14379854458">(+1)4379854458</a>
                     </div>
 
-                    <div className="d-flex">
+                    <div className="d-flex justify-content-center">
                         <p>nhussaini1994@gmail.com</p>
                     </div>
                 </div>
