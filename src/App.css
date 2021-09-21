@@ -375,3 +375,31 @@ nav ul li {
 .footer a svg {
   font-size: 1.5rem;
 }
+
+a.top {
+  margin-left: 15rem;
+  /* font-size: 5rem; */
+}
+svg.arrow-up {
+  font-size: 3rem !important;
+  font-weight: bold;
+}
+svg.arrow-up:hover {
+  /* transform: translate(2rem, 1rem); */
+  animation: arrowmove 1.5s infinite;
+}
+
+@keyframes arrowmove {
+  0% {
+    transform: translate(0, -0.5rem);
+  }
+  25% {
+    transform: translate(0, -1rem);
+  }
+  50% {
+    transform: translate(0, -0.5rem);
+  }
+  100% {
+    transform: translate(0, 0);
+  }
+}
