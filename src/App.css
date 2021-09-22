@@ -417,10 +417,25 @@ svg.arrow-up:hover {
   width: 15rem !important;
   height: 7rem;
   border: 1px solid var(--primary-orange);
-  padding: 0 0.5rem;
+  padding: 0.5rem;
 }
 
 .portfolio-image-box {
   position: relative;
   margin: 1rem;
+}
+
+.overflow {
+  position: absolute;
+  opacity: 0;
+  background: #000;
+  width: 15rem;
+  height: 7rem;
+  top: 0;
+  border: 1px solid var(--primary-red);
+  cursor: pointer;
+}
+.overflow:hover {
+  opacity: 60%;
+  transition: 0.3s ease-in-out;
 }
