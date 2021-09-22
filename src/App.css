@@ -403,3 +403,24 @@ svg.arrow-up:hover {
     transform: translate(0, 0);
   }
 }
+
+/**************Portfolio*********************/
+.portfolio-wrapper {
+  background: var(--primary-light-grey);
+  padding: 3rem 0;
+}
+.image-box-wrapper {
+  display: flex;
+  justify-content: center;
+}
+.portfolio-image {
+  width: 15rem !important;
+  height: 7rem;
+  border: 1px solid var(--primary-orange);
+  padding: 0 0.5rem;
+}
+
+.portfolio-image-box {
+  position: relative;
+  margin: 1rem;
+}
