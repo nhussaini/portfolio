@@ -9,7 +9,8 @@ import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faSearchPlus } from "@fortawesome/free-solid-svg-icons";
 
 //react popupbox
-import {PopupboxManager,PopupboxContainer} from 'react-popupbox'
+import {PopupboxManager,PopupboxContainer} from 'react-popupbox';
+import 'react-popupbox/dist/react-popupbox.css';
 
 
 
@@ -18,9 +19,11 @@ function Portfolio() {
     const openPopupboxEssentialWords =()=>{
         const content = (
             <>
-                <img src={essentailWords} alt="essential words ..."/>
+                <img className="portfolio-image-popupbox" src={essentailWords} alt="essential words ..."/>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Praesentium sint eos magni quia voluptatem odit sapiente deleniti accusamus temporibus aspernatur architecto.</p>
-                <b>Github:</b> <a className="hyper-link" onClick={()=> window.open("https://github.com/nhussaini/essential-words-toefl")}>https://github.com/nhussaini/essential-words-toefl</a>
+                <b>Github:</b> <a className="hyper-link" onClick={()=> window.open("https://github.com/nhussaini/essential-words-toefl")}>https://github.com/nhussaini/essential-words-toefl</a><br/>
+                <b>Live Demo:</b> <a className="hyper-link" onClick={()=> window.open("https://essential-words-for-toefl.web.app/")}>https://essential-words-for-toefl.web.app/</a>
+
             </>
         )
       
@@ -29,6 +32,12 @@ function Portfolio() {
     }
 
     const popupboxConfigEssentialWords ={
+        titleBar: {
+            enable: true,
+            text: 'Essential Words for TOEFL'
+        },
+        fadeIn:true,
+        fadeInSpeed: 500
 
     }
     return (
