@@ -411,6 +411,7 @@ svg.arrow-up:hover {
 }
 .image-box-wrapper {
   display: flex;
+  flex-wrap: wrap;
   justify-content: center;
 }
 .portfolio-image {
@@ -472,3 +473,46 @@ svg.arrow-up:hover {
 .hyper-link:hover {
   color: var(--primary-red);
 }
+@media (max-width: 768px) {
+  .portfolio-image-popupbox {
+    width: 100%;
+  }
+  .portfolio-image-popupbox {
+    margin-bottom: 0.5rem;
+  }
+  b {
+    font-size: 0.7rem;
+  }
+  .hyper-link {
+    font-size: 0.7rem !important;
+  }
+}
+@media (max-width: 321px) {
+  .popupbox-wrapper {
+    margin-top: 6rem;
+  }
+  .popupbox-wrapper p {
+    font-size: 0.7rem;
+  }
+  .portfolio-image-popupbox {
+    margin-bottom: 0.5rem;
+  }
+}
+
+/* @media (max-height: 570px) {
+  .popupbox-wrapper {
+    height: 100% !important;
+  }
+  .portfolio-image-popupbox {
+    width: 100%;
+  }
+} */
+
+/* @media (max-height: 280px) {
+  .popupbox-wrapper {
+    height: 90%;
+  }
+  .portfolio-image-popupbox {
+    width: 100%;
+  }
+} */

@@ -49,13 +49,8 @@ function Portfolio() {
             <>
                 <img className="portfolio-image-popupbox" src={schedular} alt="Schedular..."/>
                 <p>
-                    Interview Scheduler is a Single Page Application(SPA) to track students interviews
-                    built with the latest tools and techniques for optimized user experience. The App
-                    allows users to add, edit and delete appointments in real time. It uses React built-in
-                    and custom hooks Data is persisted by the API server using a PostgreSQL database.
-                    The client application communicates with an API server over HTTP, using the JSON format.
-                    Moreover, for quality assurance, the project follows best practices of Test Driven Development (TDD)
-                    .i.e, individual Component is tested in isolation as well as End-to-End testing is performed.
+                    Interview Scheduler is a Single Page Application(SPA) to track students interviews. The App
+                    allows users to add, edit and delete appointments in real time. 
                 </p>
                 <b>Github:</b> <a className="hyper-link" onClick={()=> window.open("https://github.com/nhussaini/lighthouse-labs-scheduler")}>https://github.com/nhussaini/lighthouse-labs-scheduler</a><br/>
             </>
