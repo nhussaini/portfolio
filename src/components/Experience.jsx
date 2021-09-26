@@ -5,7 +5,23 @@ const Experience =()=>{
                 <h1>experience</h1>
             </div>
             <div className="container experience-wrapper">
-                <div className="timeline-block timeline-block-right">
+
+            <div className="timeline-block timeline-block-right">
+                    <div className="marker"></div>
+                    <div className="timeline-content">
+                        <h3>2021-Now</h3>
+                        <h4>LighthouseLabs</h4> 
+                        <p>Mentor</p>
+                        <p>
+                        I support the students through their academic journey, and prepare them for their transition
+                        into an exciting new career in tech.Working directly with students to coach them through any roadblocks they might be experiencing
+
+Giving the students tips on solving coding problems
+                        </p>
+                    </div>
+                </div>
+
+                <div className="timeline-block timeline-block-left">
                     <div className="marker"></div>
                     <div className="timeline-content">
                         <h3>2021-Now</h3>
@@ -16,7 +32,7 @@ const Experience =()=>{
                     </div>
                 </div>
 
-                <div className="timeline-block timeline-block-left">
+                <div className="timeline-block timeline-block-right">
                     <div className="marker"></div>
                     <div className="timeline-content">
                         <h3>2016-2017</h3>
@@ -29,7 +45,7 @@ const Experience =()=>{
                     </div>
                 </div>
 
-                <div className="timeline-block timeline-block-right">
+                <div className="timeline-block timeline-block-left">
                     <div className="marker"></div>
                     <div className="timeline-content">
                         <h3>2016-2017</h3>
@@ -42,7 +58,7 @@ const Experience =()=>{
                 </div>
 
 
-                <div className="timeline-block timeline-block-left">
+                <div className="timeline-block timeline-block-right">
                     <div className="marker"></div>
                     <div className="timeline-content">
                         <h3>2015-2016</h3>
