@@ -12,6 +12,7 @@ const Navbar = () => {
       <div className="container">
         <a className="navbar-brand" href="#">
           <img src={myLogo} alt="my brand logo" className="logo" />
+          {/* <livetcode/> */}
         </a>
         <button
           className="navbar-toggler"
